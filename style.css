@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+    background-color: #89d9fb;
+}
+.container{
+    width:100%;
+    height:100%;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.moon-sun{
+    width:20vh;
+    height:20vh;
+    background-color: rgb(253, 204, 78);
+    box-shadow: 1px 1px 100px yellow;
+    border-radius: 50%;
+    position: absolute;
+    top:10%;
+    left:10%;
+}
+.crator{
+    visibility:hidden;
+}
+#c1{
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: rgb(212, 212, 212);
+    position: absolute;
+    top:25%;
+    left:10%;
+    border:1px solid rgb(191, 190, 190);
+}
+#c2{
+    width:15px;
+    height:15px;
+    background-color: #cecece;
+    border-radius: 50%;
+    position: absolute;
+    top:31%;
+    left:50%;
+}
+#c3{
+    width:10px;
+    height:10px;
+    background-color: #cecece;
+    border-radius: 50%;
+    position: absolute;
+    top:61%;
+    left:20%;
+}
+#c4{
+    width:10px;
+    height:10px;
+    background-color: #cecece;
+    border-radius: 50%;
+    position: absolute;
+    top:40%;
+   right:20%;
+}
+.stars{
+    height:30vh;
+    position: absolute;
+    top:10px;
+    right:10px;
+    width:70%;
+    background-color: transparent;
+    color:lightyellow;
+    display: none;
+    
+}
+.fa-star{
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px white;
+    animation: blink 2000ms linear 100ms infinite;
+}
+@keyframes blink{
+    from{transform:scale(1)}
+    to{transform: scale(1.1);}
+}
+.fa-star:nth-child(1)
+{
+    position: absolute;
+    bottom:10px;
+    
+    font-size: 8px;
+    
+}
+.fa-star:nth-child(2)
+{
+    position: absolute;
+    top:25%;
+    right:10px;
+    font-size: 6px;
+    
+}
+.fa-star:nth-child(3)
+{
+    position: absolute;
+    top:25%;
+    left:50%;
+    font-size: 5px;
+    
+}
+.fa-star:nth-child(4)
+{
+    position: absolute;
+    bottom:30px;
+    left:100px;
+    font-size: 7px;
+}
+.fa-star:nth-child(5)
+{
+    position: absolute;
+    left:70%;
+    top:50%;
+    font-size: 9px;
+}
+.fa-star:nth-child(6)
+{
+    position: absolute;
+    top:10px;
+    left:60px;
+    font-size: 10px;
+}
+.sand{
+    position: absolute;
+    bottom:0;
+    width:100%;
+    height:40%;
+    background-color: rgb(254, 221, 120);
+    margin:0%;
+    display: flex;
+    
+}
+
+
+#sand-dune2{
+    position: absolute;
+    top:-195px;
+    left:50%;
+    width:10px;
+    height:10px;
+    border-top:100px solid transparent;
+    border-left:100px solid transparent;
+    border-right:100px solid transparent;
+    border-bottom: 100px solid rgb(254, 221, 120);
+    z-index:1;
+    
+}
+#sand-dune3{
+    position: absolute;
+    top:-166px;
+    left:66%;
+    width:0;
+    height:0;
+    border-top:100px solid transparent;
+    border-left:100px solid transparent;
+    border-right:100px solid transparent;
+    border-bottom:100px solid rgb(254, 221, 120);
+    /* z-index:1; */
+}
+
