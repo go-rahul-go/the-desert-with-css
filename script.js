@@ -12,7 +12,7 @@ let hour = date.getHours();
 
 
 
-if(hour>=16 || hour<=24)
+if(hour>=16 && hour<=24)
 {
     body.style.backgroundColor="#0A1247";
     moonSun.style.backgroundColor="#E8EBF7"
